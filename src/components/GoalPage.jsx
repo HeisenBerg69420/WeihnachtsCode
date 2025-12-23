@@ -58,9 +58,29 @@ const GoalPage = () => {
     }, []);
 
     // --- Bauble slideshow ---
-    const slideshowImages = useMemo(() => (["public/images/Sop1.jpg", "public/images/Sop2.png", "public/images/Sop3.png", "public/images/dia1.jpg", "public/images/dia2.jpg",
-        "public/images/dia3.jpg", "public/images/dia4.jpg","public/images/dia5.jpg","public/images/dia6.jpg", "public/images/dia7.jpg", "public/images/dia8.jpg", "public/images/dia9.jpg", "public/images/dia10.png",
-        "public/images/dia11.jpg", "public/images/dia12.jpg", "public/images/Meme5.JPG", "public/images/Meme6.JPG", "public/images/Smort1.JPG"]) ,[]);
+    const slideshowImages = useMemo(
+        () => [
+            `${import.meta.env.BASE_URL}images/Sop1.jpg`,
+            `${import.meta.env.BASE_URL}images/Sop2.png`,
+            `${import.meta.env.BASE_URL}images/Sop3.png`,
+            `${import.meta.env.BASE_URL}images/dia1.jpg`,
+            `${import.meta.env.BASE_URL}images/dia2.jpg`,
+            `${import.meta.env.BASE_URL}images/dia3.jpg`,
+            `${import.meta.env.BASE_URL}images/dia4.jpg`,
+            `${import.meta.env.BASE_URL}images/dia5.jpg`,
+            `${import.meta.env.BASE_URL}images/dia6.jpg`,
+            `${import.meta.env.BASE_URL}images/dia7.jpg`,
+            `${import.meta.env.BASE_URL}images/dia8.jpg`,
+            `${import.meta.env.BASE_URL}images/dia9.jpg`,
+            `${import.meta.env.BASE_URL}images/dia10.png`,
+            `${import.meta.env.BASE_URL}images/dia11.jpg`,
+            `${import.meta.env.BASE_URL}images/dia12.jpg`,
+            `${import.meta.env.BASE_URL}images/Meme5.JPG`,
+            `${import.meta.env.BASE_URL}images/Meme6.JPG`,
+            `${import.meta.env.BASE_URL}images/Smort1.JPG`,
+        ],
+        []
+    );
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
