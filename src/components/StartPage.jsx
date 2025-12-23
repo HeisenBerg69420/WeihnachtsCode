@@ -54,7 +54,7 @@ const StartPage = ({ onStart }) => {
                 className="absolute top-0 right-[10%] w-32 md:w-48 z-10"
             >
                 <ChristmasBauble
-                    src="public/Images/Sop2.png"
+                    src="/Images/Sop2.png"
                     size={180}
                 />
             </motion.div>
