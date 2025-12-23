@@ -254,7 +254,7 @@ const QuizModal = ({ quiz, onClose, onComplete }) => {
                <div className="absolute inset-0 bg-rose-100 rounded-full animate-ping opacity-20" />
                <div className="absolute inset-4 bg-rose-200 rounded-full animate-pulse opacity-30" />
                <div className="relative w-32 h-32 bg-gradient-to-tr from-rose-400 to-pink-500 rounded-full flex items-center justify-center shadow-xl shadow-rose-200">
-                  <img src="public/Images/cat1.jpg" alt="23"/>
+                  <img src="../../public/images/cat1.jpg" alt="23"/>
                </div>
 
                {/* Floating particles */}

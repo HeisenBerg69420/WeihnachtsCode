@@ -273,9 +273,9 @@ const MapPage = ({ completedQuizzes, onCompleteQuiz, onReachGoal }) => {
   }, [selectedQuiz, onCompleteQuiz]);
 
 
-    const slideshowImages = useMemo(() => (["public/Images/Sop1.jpg", "public/Images/Sop2.png", "public/Images/Sop3.png", "public/Images/dia1.jpg", "public/Images/dia2.jpg",
-    "public/Images/dia3.jpg", "public/Images/dia4.jpg","public/Images/dia5.jpg","public/Images/dia6.jpg", "public/Images/dia7.jpg", "public/Images/dia8.jpg", "public/Images/dia9.jpg", "public/Images/dia10.png",
-        "public/Images/dia11.jpg", "public/Images/dia12.jpg"]), [selectedQuiz]);
+    const slideshowImages = useMemo(() => (["public/images/Sop1.jpg", "public/images/Sop2.png", "public/images/Sop3.png", "public/images/dia1.jpg", "public/images/dia2.jpg",
+    "public/images/dia3.jpg", "public/images/dia4.jpg","public/images/dia5.jpg","public/images/dia6.jpg", "public/images/dia7.jpg", "public/images/dia8.jpg", "public/images/dia9.jpg", "public/images/dia10.png",
+        "public/images/dia11.jpg", "public/images/dia12.jpg"]), [selectedQuiz]);
 
     const [currentIndex, setCurrentIndex] = useState(0);
 

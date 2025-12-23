@@ -58,9 +58,9 @@ const GoalPage = () => {
     }, []);
 
     // --- Bauble slideshow ---
-    const slideshowImages = useMemo(() => (["public/Images/Sop1.jpg", "public/Images/Sop2.png", "public/Images/Sop3.png", "public/Images/dia1.jpg", "public/Images/dia2.jpg",
-        "public/Images/dia3.jpg", "public/Images/dia4.jpg","public/Images/dia5.jpg","public/Images/dia6.jpg", "public/Images/dia7.jpg", "public/Images/dia8.jpg", "public/Images/dia9.jpg", "public/Images/dia10.png",
-        "public/Images/dia11.jpg", "public/Images/dia12.jpg", "public/Images/Meme5.JPG", "public/Images/Meme6.JPG", "public/Images/Smort1.JPG"]) ,[]);
+    const slideshowImages = useMemo(() => (["public/images/Sop1.jpg", "public/images/Sop2.png", "public/images/Sop3.png", "public/images/dia1.jpg", "public/images/dia2.jpg",
+        "public/images/dia3.jpg", "public/images/dia4.jpg","public/images/dia5.jpg","public/images/dia6.jpg", "public/images/dia7.jpg", "public/images/dia8.jpg", "public/images/dia9.jpg", "public/images/dia10.png",
+        "public/images/dia11.jpg", "public/images/dia12.jpg", "public/images/Meme5.JPG", "public/images/Meme6.JPG", "public/images/Smort1.JPG"]) ,[]);
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -170,7 +170,7 @@ const GoalPage = () => {
                 <img
                     alt="Floating kitten with balloons"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="public/Images/Meme3.JPG"
+                    src="../../public/images/Meme3.JPG"
                     loading="lazy"
                     width="160"
                     height="160"
@@ -185,7 +185,7 @@ const GoalPage = () => {
                 <img
                     alt="Happy kitten with a party hat"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="public/Images/Meme4.JPG"
+                    src="../../public/images/Meme4.JPG"
                     loading="lazy"
                     width="160"
                     height="160"
@@ -200,7 +200,7 @@ const GoalPage = () => {
                 <img
                     alt="Two kittens hugging"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="public/Images/Meme3.JPG"
+                    src="../../public/images/Meme3.JPG"
                     loading="lazy"
                     width="144"
                     height="144"
@@ -306,7 +306,7 @@ const GoalPage = () => {
                             </motion.p>
 
                             {/* Main Bauble Slideshow */}
-                            {/*<FlappyImageGame birdSrc="public/Images/Meme1.jpg" />*/}
+                            {/*<FlappyImageGame birdSrc="public/images/Meme1.jpg" />*/}
 
                             {/* Emoji row */}
                             <motion.div>
