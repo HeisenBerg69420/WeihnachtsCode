@@ -247,6 +247,7 @@ export default defineConfig({
 		},
 		allowedHosts: true,
 	},
+    base: "/REPO_NAME/",
 	resolve: {
 		extensions: ['.jsx', '.js', '.tsx', '.ts', '.json', ],
 		alias: {
